@@ -1,0 +1,25 @@
+# Arquivos e diretórios a serem ignorados no build do Docker
+.env
+.git
+.gitignore
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache
+.venv
+venv/
+.DS_Store
+Thumbs.db
