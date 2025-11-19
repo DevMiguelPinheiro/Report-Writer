@@ -1,12 +1,19 @@
-[project]
-name = "repl-nix-workspace"
+[tool.poetry]
+name = "report-writer"
 version = "0.1.0"
-description = "Add your description here"
-requires-python = ">=3.11"
-dependencies = [
-    "google-genai>=1.49.0",
-    "streamlit>=1.51.0",
-    "python-dotenv>=1.0.0",
-    "reportlab>=4.0.0",
-    "markdown2>=2.4.0",
-]
+description = "Gerador de Relatórios Técnicos ABNT com Streamlit e Google Gemini AI"
+authors = ["DevMiguelPinheiro"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-genai = "^1.49.0"
+streamlit = "^1.51.0"
+python-dotenv = "^1.0.0"
+reportlab = "^4.0.0"
+markdown2 = "^2.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
